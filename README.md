@@ -14,28 +14,29 @@
 
 操作系统：
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Windows **11 专业版（22H2）**
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Windows **[11 专业版（22H2）](https://www.microsoft.com/zh-cn/software-download/windows11)**
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;MacOS Ventura 13 **13.0.1(22A400)**
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;MacOS Ventura 13 **[13.0.1(22A400)](https://www.apple.com.cn/macos/ventura/)**
 
-处理器&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp; 英特尔 &nbsp;&nbsp;Core **i9-10900k** @3.70GHz 10核
+处理器&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp; 英特尔 &nbsp;&nbsp;Core **[i9-10900k@3.70GHz](https://www.intel.cn/content/www/cn/zh/products/sku/199332/intel-core-i910900k-processor-20m-cache-up-to-5-30-ghz/specifications.html)** 10核
 
-主板&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华硕&nbsp;&nbsp;**Asus-Prime-Z590-P**
+主板&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华硕&nbsp;&nbsp;**[Asus-Prime-Z590-P](https://www.asus.com.cn/motherboards-components/motherboards/prime/prime-z590-p/)**
 
-显卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;蓝宝石&nbsp;&nbsp;**RX6600XT/HD630(只硬解）**
+显卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;蓝宝石&nbsp;&nbsp;**[AMD Radeon™ RX 6600 XT](https://www.sapphiretech.com/zh-cn/consumer/nitro-radeon-rx-6600-xt-8g-gddr6)/HD630(只硬解）**
 
-内存&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;金士顿&nbsp;&nbsp;**KF432C16BB/16 （16gx2）**[查看方式](https://www.kingston.com.cn/cn/memory/memory-part-number-decoder)
+内存&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;金士顿&nbsp;&nbsp;**[KF432C16BB/16 （16gx2）](https://www.kingston.com.cn/cn/memory/search?partid=KF432C16BB%2F16)**&ensp;&ensp;&ensp;&ensp;[查看方式](https://www.kingston.com.cn/cn/memory/memory-part-number-decoder)
 
-主硬盘&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;**Samsung SSD 970 EVO Plus 1TB +Samsung SSD 860 EVO 500GB**
+主硬盘&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;**[Samsung SSD 970 EVO Plus 1TB](https://www.samsungeshop.com.cn/product/MZ-V7S/MZ-V7S250BW) +Samsung SSD 860 EVO 500GB**
 
 声卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;Realtek **ALC897**
 
 网卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;**BCM94360CD**
 
+---
 
 驱动情况：
 
-- [x] 显卡：核显只作为硬解码，独显免驱
+- [x] 显卡：核显只作为硬解码，独显免驱 *（BIOS开启初始化iGPU）*
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ensp;[显示器调节软件](https://github.com/MonitorControl/MonitorControl#readme)
 
@@ -51,7 +52,81 @@
 
 - [ ] 目前已知问题：核显无法作为屏幕输出
 
-- [ ] 
+
+---
+
+<h2>BIOS设置：</h2>
+
+- 更新到**1601**版本
+- BIOS设置为如下（启动按DEL/F2键）
+
+高级模式（F7）
+
+&ensp;&ensp;&ensp;&ensp;**Ai Tweaker**
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*-Ai智能超频：XMP I*
+
+&ensp;&ensp;&ensp;&ensp;**高级**
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-CPU设置
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*Intel (VMX)虚拟化技术：Enabled*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-北桥
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-显示设置
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*初始化iGPU：Disabled*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-PCH储存设置
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*SATA6G_(1-4)热拔插：Enabled*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-Thunderbolt（TM）设置
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*独立Thunderbolt（TM）支持：Disable*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-PCI Subsystem Settings
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*大于4G地址空间解码：Enabled*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-USB设置
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*Legacy USB 支持：开启*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*XHCI 接管：开启*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-内置设备
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-串口设置
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*串口：Disabled*
+
+&ensp;&ensp;&ensp;&ensp;**启动**
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-CSM（兼容性支持模块）
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*开启CSM：Disabled*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-安全启动
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*操作系统类型：其他操作系统*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-启动设置
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*快速启动：关闭*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*开机自检（POST）延迟时间：0秒*
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*若出现错误等按下F1键：Disabled*
+
+&ensp;&ensp;&ensp;&ensp;**工具**
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;-华硕Armoury Crate
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*下载并安装ARMOURY CRATE应用程序：Disabled*
+
+---
 
 感谢：
 
