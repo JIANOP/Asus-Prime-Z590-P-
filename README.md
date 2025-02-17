@@ -32,6 +32,7 @@ Phantom Gaming D 16G OC](https://pg.asrock.com/Graphics-Card/AMD/Radeon%20RX%206
 声卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;Realtek **ALC897**
 
 网卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;**BCM94360CD**
+
 摄像头&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;**[LogiC1000e](https://www.logitech.com/zh-cn/products/webcams/brio-4k-hdr-webcam.html?srsltid=AfmBOorAurNkhv166yF81RLL4X0y_lTen3GJs5I0ckBAckve0emN8Yfk)**
 
 ---
