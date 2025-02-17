@@ -1,6 +1,6 @@
 
 
-# Asus-Prime-Z590-P黑苹果EFI OpenCore0.8.6（2022.11.24更新）
+# Asus-Prime-Z590-P黑苹果EFI OpenCore1.0.3（2025.02.17更新）
 
 
 配置文件仍然在持续更新中，如果有任何问题或者错误请向我反馈。
@@ -14,19 +14,20 @@
 
 操作系统：
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Windows **[11 专业版（22H2）](https://www.microsoft.com/zh-cn/software-download/windows11)**
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;W印dows **[11 专业版（24H2）](https://www.microsoft.com/zh-cn/software-download/windows11)**
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;MacOS Ventura 13 **[13.0.1(22A400)](https://www.apple.com.cn/macos/ventura/)**
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;MacOS Sequoia 15 **[15.3.1(24D70)](https://www.apple.com.cn/macos/ventura/)**
 
 处理器&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp; 英特尔 &nbsp;&nbsp;Core **[i9-10900k@3.70GHz](https://www.intel.cn/content/www/cn/zh/products/sku/199332/intel-core-i910900k-processor-20m-cache-up-to-5-30-ghz/specifications.html)** 10核
 
 主板&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华硕&nbsp;&nbsp;**[Asus-Prime-Z590-P](https://www.asus.com.cn/motherboards-components/motherboards/prime/prime-z590-p/)**
 
-显卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;蓝宝石&nbsp;&nbsp;**[AMD Radeon™ RX 6600 XT](https://www.sapphiretech.com/zh-cn/consumer/nitro-radeon-rx-6600-xt-8g-gddr6)/HD630(只硬解）**
+显卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;华擎&nbsp;&nbsp;**[AMD Radeon™ RX 6800 XT
+Phantom Gaming D 16G OC](https://pg.asrock.com/Graphics-Card/AMD/Radeon%20RX%206800%20XT%20Phantom%20Gaming%20D%2016G%20OC/index.tw.asp)/HD630(只硬解）**
 
 内存&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;金士顿&nbsp;&nbsp;**[KF432C16BB/16 （16gx2）](https://www.kingston.com.cn/cn/memory/search?partid=KF432C16BB%2F16)**&ensp;&ensp;&ensp;&ensp;[查看方式](https://www.kingston.com.cn/cn/memory/memory-part-number-decoder)
 
-主硬盘&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;**[Samsung SSD 970 EVO Plus 1TB](https://www.samsungeshop.com.cn/product/MZ-V7S/MZ-V7S250BW) +Samsung SSD 860 EVO 500GB**
+主硬盘&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;**[Samsung SSD 970 EVO Plus 1TB+2TB](https://www.samsung.com/tw/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-1tb-mz-v7s1t0bw/) +Samsung SSD 860 EVO 500GB**
 
 声卡&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;Realtek **ALC897**
 
@@ -46,11 +47,13 @@
 
 - [x] CPU变频正常（ **35档** ）
 
-- [x] FaceTime ，iMessage，隔空投送，接力，Apple Watch解锁，随航，相机接续互通，均正常使用（前提三码入住）
-
+- [x] FaceTime ，iMessage，隔空投送，接力，Apple Watch解锁（前提三码入住）
+      
 - [x] USB&ensp;2.0；3.0&ensp;已定制
 
-- [ ] 目前已知问题：核显无法作为屏幕输出
+- [ ] 目前已知问题：
+- [ ] 核显无法作为屏幕输出
+- [ ] 随航，相机接续互通 导致电脑死机
 
 
 ---
@@ -146,6 +149,6 @@
 
 ---
 
-2022年11月24日周四 （更新）
+2025年2月17日周一 （更新）
 
-中雨18℃～22℃
+多云12℃～20℃
